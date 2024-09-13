@@ -1,0 +1,53 @@
+
+
+
+
+    <div className='navbar navbar-expand-lg fixed-top bg-secondary' data-bs-theme-dark>
+    <div className='container'>
+    <i class="fa-solid fa-bars-progress fa-beat-fade"></i>
+        {' '}
+        TASK MANAGEMENT SYSTEM
+    </div>
+</div>
+
+
+
+
+ <div className='border border-3 p-3'>
+        
+        
+                <div className='d-flex justify-content-between border shadow mb-3 p-3 rounded'>
+                <h4>task title</h4>
+                <div>
+                
+                  <Edit recipe={item}/>
+                 
+                  <button className='btn mt-3' >
+                  <i class="fa-solid fa-trash fa-xl" style={{color: "#63E6BE",}} />
+                  </button>
+                </div>
+              </div>
+            ))
+            :
+            <h3 className='text-center '>no  recipies are added</h3>
+        }
+      </div>
+      </Col>
+      <Col sm={8} md={6}>
+        
+      </Col>
+  </Row> 
+      <div className='text-center' style={{fontSize:'30px',textDecoration:"none"}}>
+      <Link to={'/prof'} style={{textDecoration:"none"}}>
+      <i class="fa-solid fa-forward fa-beat" style={{color: "#FFD43B",}} />
+      {" "}
+        BACK</Link>
+      </div>   
+   </div>
+
+      
+                <div className='d-flex justify-content-between border shadow mb-3 p-3 rounded'>
+                <h1>tasktitle</h1>
+                <div>
+                
+            
